@@ -200,6 +200,7 @@ def download_github(repo: str, display_name: str) -> None:
 GITHUB_PLUGINS = [
     # (repo,                    display_name)
     ("dmulloy2/ProtocolLib",   "ProtocolLib"),
+    ("jacob1/dynmap",   "Dynmap"),
 ]
 
 
@@ -326,7 +327,6 @@ MODRINTH_PLUGINS = [
     ("1UlvXbzL",   "OpenInv",                None,                   None),
     # External on Spiget — remapped to Modrinth:
     ("HFTnFHKn",   "AntiPopup",              None,                   None),
-    ("fRQREgAc",   "Dynmap",                 None,          ("paper", "spigot")),
     ("ZfddU72x",   "WanderingTrades",        None,                   None),
     ("gG7VFbG0",   "TAB",                    None,                   None),
 ]
